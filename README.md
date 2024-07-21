@@ -1,7 +1,7 @@
 # vcf-tajima
 A pipeline to run Tajima D statistics on VCF using BED file
 
-**Introduction**
+**Introduction** <br>
 **VCF to Tajima's D Analysis Pipeline**
 This pipeline is designed to streamline the process of calculating Tajima's D from a VCF file using a BED file to specify target regions. The pipeline leverages GATK for variant selection and VCFkit for Tajima's D calculation. It is particularly useful for genomic researchers and bioinformaticians looking to analyze specific regions in a VCF file and obtain Tajima's D values efficiently.
 
