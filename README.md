@@ -1,4 +1,4 @@
-# vcf-tajima
+# vcf2tajima
 A pipeline to run Tajima D statistics on VCF using BED file
 
 **Introduction** <br>
@@ -15,7 +15,6 @@ This pipeline is designed to streamline the process of calculating Tajima's D fr
 **Usage Manual** <br>
 **Prerequisites** <br>
 Before using the pipeline, ensure you have the following tools installed: <br>
-<br>
 **GATK:** Genome Analysis Toolkit <br>
 **VCFkit:** A toolkit for processing VCF files <br>
 **awk:** A powerful text-processing language <br>
@@ -23,14 +22,20 @@ Before using the pipeline, ensure you have the following tools installed: <br>
 <br>
 **Installation** <br>
 1. Clone the Repository <br>
+```
 git clone https://github.com/xoaib4/vcf2tajima.git <br>
 cd vcf2tajima <br>
+```
 2. Make the pipeline Executable <br>
+```
 chmod +x vcf2tajima.sh <br>
+```
 
 **Usage** <br>
+```
 ./vcf2tajima.sh targets.bed Reference.fasta variants.vcf names.args output.tajimaD <br>
-<br>
+```
+
 **Parameters** <br>
 **targets.bed:** Path to the BED file containing target regions. <br>
 **Reference.fasta:** Path to the reference FASTA file. <br>
@@ -39,8 +44,10 @@ chmod +x vcf2tajima.sh <br>
 **output.tajimaD:** Path to the output file where the Tajima's D results will be saved. <br>
 <br>
 **Example** <br>
+```
 ./vcf2tajima.sh example_targets.bed example_reference.fasta example_variants.vcf example_names.args results.tajimaD <br>
-<br>
+```
+
 **Detailed Steps** <br>
 **Check Input Files:** The pipeline first verifies the existence of the input files. <br>
 **Create Temporary Directory:** It creates a temporary directory to store intermediate files. <br>
