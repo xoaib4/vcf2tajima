@@ -32,8 +32,21 @@ chmod +x vcf2tajima.sh
 ```
 
 **Usage** <br>
+To calculate Tajima's D on targeted capture sequencing on a Linux:
 ```
-./vcf2tajima.sh targets.bed Reference.fasta variants.vcf names.args output.tajimaD
+./vcf2tajima_target.sh targets.bed Reference.fasta variants.vcf names.args output.tajimaD
+```
+To calculate Tajima's D on whole genome sequencing on a Limux:
+```
+./vcf2tajima_wgs.sh targets.bed Reference.fasta variants.vcf names.args output.tajimaD
+```
+To calculate Tajima's D on targeted capture sequencing on a Mac:
+```
+./vcf2tajima_target_mac.sh targets.bed Reference.fasta variants.vcf names.args output.tajimaD
+```
+To calculate Tajima's D on whole genome sequencing on a Mac:
+```
+./vcf2tajima_wgs_mac.sh targets.bed Reference.fasta variants.vcf names.args output.tajimaD
 ```
 
 **Parameters** <br>
