@@ -23,17 +23,17 @@ Before using the pipeline, ensure you have the following tools installed: <br>
 **Installation** <br>
 1. Clone the Repository <br>
 ```
-git clone https://github.com/xoaib4/vcf2tajima.git <br>
+git clone https://github.com/xoaib4/vcf2tajima.git
 cd vcf2tajima <br>
 ```
 2. Make the pipeline Executable <br>
 ```
-chmod +x vcf2tajima.sh <br>
+chmod +x vcf2tajima.sh
 ```
 
 **Usage** <br>
 ```
-./vcf2tajima.sh targets.bed Reference.fasta variants.vcf names.args output.tajimaD <br>
+./vcf2tajima.sh targets.bed Reference.fasta variants.vcf names.args output.tajimaD
 ```
 
 **Parameters** <br>
@@ -45,7 +45,7 @@ chmod +x vcf2tajima.sh <br>
 <br>
 **Example** <br>
 ```
-./vcf2tajima.sh example_targets.bed example_reference.fasta example_variants.vcf example_names.args results.tajimaD <br>
+./vcf2tajima.sh example_targets.bed example_reference.fasta example_variants.vcf example_names.args results.tajimaD
 ```
 
 **Detailed Steps** <br>
