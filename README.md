@@ -28,6 +28,7 @@ cd vcf2tajima <br>
 2. Make the pipeline Executable <br>
 chmod +x vcf2tajima.sh <br>
 <br>
+
 **Usage** <br>
 ./vcf2tajima.sh targets.bed Reference.fasta variants.vcf names.args output.tajimaD <br>
 <br>
