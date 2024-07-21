@@ -36,7 +36,7 @@ To calculate Tajima's D on targeted capture sequencing on a Linux:
 ```
 ./vcf2tajima_target.sh targets.bed Reference.fasta variants.vcf names.args output.tajimaD
 ```
-To calculate Tajima's D on whole genome sequencing on a Limux:
+To calculate Tajima's D on whole genome sequencing on a Linux:
 ```
 ./vcf2tajima_wgs.sh targets.bed Reference.fasta variants.vcf names.args output.tajimaD
 ```
