@@ -68,7 +68,8 @@ Output files will be saved in the specified output file with the .tajimaD suffix
 **Citation** <br>
 If you use this pipeline in your research, please cite the following publication: <br>
 <br>
-Akhtar, MS and Kawamura, S. 2024 <br>
+Akhtar, M.S. and Kawamura, S., 2024. A protocol to extract a specific genomic region from a public whole-genome database and modify analytical bin length for population genetic studies. Methods and Protocols. <br>
+Akhtar, M.S., Ashino, R., Oota, H., Ishida, H., Niimura, Y., Touhara, K., Melin, A.D. and Kawamura, S., 2022. Genetic variation of olfactory receptor gene family in a Japanese population. Anthropological Science, 130(2), pp.93-106. https://doi.org/10.1537/ase.211024
 <br>
 **License** <br>
 This project is licensed under the MIT License. See the LICENSE file for details. <br>
