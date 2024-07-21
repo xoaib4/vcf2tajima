@@ -1,8 +1,8 @@
 # vcf2tajima
+**VCF to Tajima's D Analysis Pipeline** <br>
 A pipeline to run Tajima D statistics on VCF using BED file
 
 **Introduction** <br>
-**VCF to Tajima's D Analysis Pipeline** <br>
 This pipeline is designed to streamline the process of calculating Tajima's D from a VCF file using a BED file to specify target regions. The pipeline leverages GATK for variant selection and VCFkit for Tajima's D calculation. It is particularly useful for genomic researchers and bioinformaticians looking to analyze specific regions in a VCF file and obtain Tajima's D values efficiently. <br>
 <br>
 **Features** <br>
@@ -24,7 +24,7 @@ Before using the pipeline, ensure you have the following tools installed: <br>
 1. Clone the Repository <br>
 ```
 git clone https://github.com/xoaib4/vcf2tajima.git
-cd vcf2tajima <br>
+cd vcf2tajima 
 ```
 2. Make the pipeline Executable <br>
 ```
