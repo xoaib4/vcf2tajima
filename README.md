@@ -23,7 +23,7 @@ Before using the pipeline, ensure you have the following tools installed:
 
 **Installation**
 1. Clone the Repository
-git clone https://github.com/yourusername/vcf2tajima.git
+git clone https://github.com/xoaib4/vcf2tajima.git
 cd vcf2tajima
 2. Make the pipeline Executable
 chmod +x vcf2tajima.sh
