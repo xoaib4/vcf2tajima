@@ -27,7 +27,6 @@ git clone https://github.com/xoaib4/vcf2tajima.git <br>
 cd vcf2tajima <br>
 2. Make the pipeline Executable <br>
 chmod +x vcf2tajima.sh <br>
-<br>
 
 **Usage** <br>
 ./vcf2tajima.sh targets.bed Reference.fasta variants.vcf names.args output.tajimaD <br>
@@ -43,7 +42,7 @@ chmod +x vcf2tajima.sh <br>
 ./vcf2tajima.sh example_targets.bed example_reference.fasta example_variants.vcf example_names.args results.tajimaD <br>
 <br>
 **Detailed Steps** <br>
-**Check Input Files: **The pipeline first verifies the existence of the input files. <br>
+**Check Input Files:** The pipeline first verifies the existence of the input files. <br>
 **Create Temporary Directory:** It creates a temporary directory to store intermediate files. <br>
 **Split BED File:** The BED file is split into individual lines, each representing a region. <br>
 **Process Each Region:** <br>
